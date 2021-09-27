@@ -10,4 +10,3 @@
 Генератор крафтов: https://crafting.thedestruc7i0n.ca/
 
 Для добавления своих структур в генерацию мира советую изучить каталог prototypedungeons</b>
-test
