@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:chain"
     }
   },
   "result": {
-    "item": "minecraft:golden_boots"
+    "item": "minecraft:chainmail_boots"
   }
 }
