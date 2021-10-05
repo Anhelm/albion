@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 100
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 12
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:random_selector",
+                  "config": {
+                    "features": [
+                      {
+                        "chance": 0.5,
+                        "feature": "far_end:warped/vegetation/water/dripleaf_land"
+                      }
+                    ],
+                    "default": "far_end:warped/vegetation/water/dripleaf_pool"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
