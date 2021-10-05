@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "blazeandcave:tick_timer"
+    "blazeandcave:tick_timer",
+    "far_end:main"
   ]
 }
