@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "blazeandcave:start_timers",
-    "rng:init",
-    "far_end:init"
-  ]
-}
